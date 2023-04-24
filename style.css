@@ -1,0 +1,9 @@
+h2{
+    color: purple;
+    border-width: medium;
+}
+
+#header2{
+    color: green;
+    display: inline;
+}
