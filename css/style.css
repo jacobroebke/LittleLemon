@@ -57,3 +57,29 @@ input:focus:invalid {
     color: red;
     border: red 3px solid;
 }
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color:green;
+}
+
+a:active {
+    background-color: darkolivegreen;
+    color: azure;
+}
+
+a:visited  {
+    color: purple;
+}
+
+.textual {
+    border: 1px;
+    padding: 10px;
+}
+
+.textual:hover {
+    box-shadow: 5px opx 25px black;
+}
