@@ -1,0 +1,131 @@
+body {
+    background-color: #E0E0E2;
+    max-width: 1000px;
+    min-width: 800px;
+    margin:auto;
+}
+/* Header*/
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.container {
+    background-color: rgb(166, 177, 171);
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 20px;
+    margin:10px
+}
+.container li {
+    list-style-type: none;
+}
+
+.container a {
+    display:inline-block;
+    padding: 25px;
+    margin: 0 5px;
+    text-align:center;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.container a:hover {
+    background-color:rgb(97, 104, 97);
+    font-size: larger;
+    color:white;
+    border-radius: 7px;
+}
+
+/* Main*/
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 30px;
+    padding: 10px;
+
+}
+/*Main - row one*/
+.rowOne {
+    display: grid;
+    padding: 20px;
+    background-image: url("pictures/LL_promo.png");
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 130px
+}
+
+.rowOne h1 {
+    font-size:xx-large;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.promo {
+    grid-column: 1/ span 12;
+    
+}
+
+.promo p{
+    inline-size:600px;
+}
+
+/*Main - row two*/
+.rowTwo {
+    display: grid;
+    padding: 20px;
+    text-align: Left;
+    background-color: rgb(228, 228, 216);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .2s ease-in-out;
+    border-radius: 20px;
+}
+
+.rowTwo img {
+    width:100%;
+    height:auto;
+}
+
+.rowTwo h2 {
+    font-weight:bolder;
+}
+
+.rowTwo:hover {
+    transform: scale(1.05)
+}
+
+.infoOne {
+    grid-column: 1/ span 4;
+}
+
+.infoTwo {
+    grid-column: 5/ span 4;
+}
+
+.infoThree {
+    grid-column: 9/ span 4;
+}
+
+/*footer*/
+.footer {
+    display: grid;
+    padding: 20px;
+}
+.footerOne {
+    grid-column: 1/ span 6;
+}
+.footerTwo {
+    grid-column: 7/ span 6;
+    text-align: right;
+    font-style:italic;
+}
+
+
